@@ -1,0 +1,160 @@
+
+.breadcrumb {
+    background: url(../../assets/img/breadcrumb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 177px;
+    margin-bottom: 3%;
+}
+.breadcrumb h1 {
+    font-weight: bold;
+    margin-top: 2.5%;
+}
+.breadcrumb h6 {
+    font-weight: bold;
+}
+
+.checkout .checkout__list .cart__items .cart__item {
+    padding: 6% 0;
+    cursor: pointer;
+}
+.checkout .checkout__list .cart__items .cart__item:hover {
+    background-color: #f6f6f6;
+}
+
+.checkout {
+    color: #666666;
+    padding: 0 0 5% 0;
+}
+
+
+
+.checkout .checkout__payment h1 {
+    font-weight: bold;
+    /* color: #aaaaaa; */
+}
+.checkout .checkout__payment .payment .card .card__header .card__image span {
+    margin-right: 1%;
+    font-size: 1.2rem;
+}
+
+.checkout .checkout__payment .payment .card .card__header .card__image span:last-child img {
+    width: 30%;
+}
+
+
+
+.checkout .checkout__list h4 {
+    padding: 4% 0 4% 4%;
+    border-bottom: 1px solid #e1e2e4;
+    margin-bottom: 5%;
+}
+.checkout .checkout__list .cart__items {
+    overflow-y: scroll;
+    padding: 0 5%;
+    max-height: 275px;
+}
+.checkout .checkout__payment .payment {
+    background: #f6f6f6;
+    border-radius: 7px;
+}
+.checkout .checkout__payment .payment .card {
+    border: none;
+    background: transparent;
+}
+.checkout .checkout__payment .payment .card .card__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3%;
+    border: 1px solid #e1e2e4;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.checkout .checkout__payment .payment .card .card__header .card__radio {
+    margin-right: 1%;
+}
+.checkout .checkout__payment .payment .card .card__header .card__image span {
+    margin-right: 1%;
+    font-size: 1.2rem;
+}
+.checkout .checkout__payment .payment .card__body {
+    padding: 3%;
+    border: 1px solid #e1e2e4;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.checkout .checkout__payment .payment .card__body .card__name, .checkout .checkout__payment .payment .card__body .card__number {
+    width: 100%;
+    padding: 1.5%;
+    font-size: 1.2rem;
+    margin: 1% 0;
+}
+.checkout .checkout__payment .payment .card__body .card__month, .checkout .checkout__payment .payment .card__body .card__year {
+    width: 32%;
+    padding: 2%;
+    font-size: 1.2rem;
+    margin: 1% 0;
+    margin-right: 1%;
+}
+.checkout .checkout__payment .payment .card__body .card__Code {
+    width: 32%;
+    padding: 1.5%;
+    font-size: 1.2rem;
+    margin: 1% 0;
+    margin-left: 2%;
+}
+.checkout .checkout__payment .payment .card__body .country {
+    width: 65%;
+    padding: 2%;
+    font-size: 1.2rem;
+    margin: 1% 0;
+}
+.checkout .checkout__payment .payment .card__body .zipcode {
+    width: 32%;
+    padding: 1.5%;
+    font-size: 1.2rem;
+    margin: 1% 0;
+    margin-left: 3%;
+}
+.checkout .checkout__payment .payment .card__body .card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+}
+.checkout .checkout__payment .payment .card__body .card__footer button {
+    width: 35%;
+    background-color: #ec5252;
+    color: #ffffff;
+    border: none;
+    width: 35%;
+    height: 60px;
+    font-weight: bold;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.checkout .checkout__payment .payment .card__body .card__footer p {
+    width: 35%;
+    font-size: .8rem;
+    padding: 0 3%;
+    margin: 0;
+}
+.checkout .checkout__payment .payment .card__body .card__footer .lock {
+    width: 30%;
+    text-align: right;
+}
+.checkout .checkout__payment .payment .card__body .card__footer .lock i {
+    font-size: 2rem;
+    margin-right: 2%;
+    color: #aaaaaa;
+}
+.checkout .checkout__payment .payment .card__body .card__footer p span {
+    color: #40a0d2;
+    font-weight: bold;
+}
+
+
